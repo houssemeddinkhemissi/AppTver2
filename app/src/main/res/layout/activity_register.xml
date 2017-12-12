@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khemissi.houssemeddin.apptver2.RegisterActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="26dp"
+        android:text="Register"
+        android:textColor="@color/ButtoncolorFirst"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="26dp"
+        android:text="Name :"
+        android:textColor="@color/ButtoncolorFirst"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/ButtoncolorFirst"
+        android:text="Email :"
+        android:textSize="10pt"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="Password :"
+        android:textColor="@color/ButtoncolorFirst"
+        android:textSize="8pt" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/en3"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/ButtoncolorFirst"
+        android:text="Confirm Password :"
+        android:textSize="8pt" />
+
+    <EditText
+        android:id="@+id/en1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:ems="8"
+        android:inputType="textPersonName"
+        android:background="@color/ButtoncolorFirst"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/en2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/en1"
+        android:ems="8"
+        android:inputType="textEmailAddress"
+        android:background="@color/ButtoncolorFirst"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/en3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/en2"
+        android:background="@color/ButtoncolorFirst"
+        android:ems="8"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/en4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/en3"
+        android:background="@color/ButtoncolorFirst"
+        android:ems="8"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/br"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_below="@+id/en4"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/ButtoncolorFirst"
+        android:text="Confirm"
+        android:background="@drawable/button_selecter"/>
+
+
+    <EditText
+        android:id="@+id/en5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/en3"
+        android:layout_alignStart="@+id/en3"
+        android:layout_marginBottom="17dp"
+        android:background="@color/ButtoncolorFirst"
+        android:ems="8"
+        android:hint="date de naissance"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/en5"
+        android:textColor="@color/ButtoncolorFirst"
+        android:text="date de naissance :"
+        android:textSize="8pt"/>
+
+
+
+</RelativeLayout>

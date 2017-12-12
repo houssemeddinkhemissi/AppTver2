@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.khemissi.houssemeddin.apptver2.LoginActivity"
+    android:background="@drawable/background">
+
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/edittextselector"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint=" Email"
+        android:drawableRight="@drawable/email"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/edittextselector"
+        android:drawableRight="@drawable/passord"
+        android:ems="10"
+        android:hint=" Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/black" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:background="@drawable/button_selecter"
+        android:text="Confirm"
+        android:textColor="@color/ButtoncolorFirst" />
+
+    <TextView
+        android:id="@+id/TS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/b1"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="48dp"
+        android:text="@string/sign_up_know"
+        android:textColor="@color/ButtoncolorFirst" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/logo" />
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">AppTver2</string>
+    <string name="email">Email :</string>
+    <string name="password">Password :</string>
+    <string name="email1">Email</string>
+    <string name="password1">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up_know">Sign Up Know</string>
+    <string name="apptv">AppTv</string>
+    <string name="title_activity_mainhome">MainhomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="list">
+        <item>Tunisie</item>
+        <item>France</item>
+        <item>USA</item>
+        <item>Canada</item>
+    </string-array>
+
+    <string-array name="image_ids">
+        <item>@drawable/aa6ter</item>
+        <item>@drawable/arte</item>
+        <item>@drawable/bfmtv</item>
+        <item>@drawable/c8</item>
+        <item>@drawable/canal</item>
+        <item>@drawable/cherie_25</item>
+        <item>@drawable/cnews</item>
+        <item>@drawable/cstar_vector</item>
+        <item>@drawable/france_2</item>
+        <item>@drawable/france_3</item>
+        <item>@drawable/france_4</item>
+        <item>@drawable/france_5</item>
+        <item>@drawable/france_o</item>
+        <item>@drawable/gulli</item>
+        <item>@drawable/hd1</item>
+        <item>@drawable/lequipe</item>
+        <item>@drawable/m6</item>
+        <item>@drawable/nrj_12</item>
+        <item>@drawable/nt1</item>
+        <item>@drawable/numero_23</item>
+        <item>@drawable/public_senat</item>
+        <item>@drawable/rmc</item>
+        <item>@drawable/tf1</item>
+        <item>@drawable/tmc</item>
+        <item>@drawable/w9</item>
+    </string-array>
+
+    <string-array name="image_ids_tunisian">
+        <item>@drawable/watania1</item>
+        <item>@drawable/watania2</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>
